@@ -63,14 +63,25 @@ div {
 }
 .links {
 	float:right;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
 	margin-top: 1.7rem
+	-webkit-font-smoothing: antialiased;
 }
 .links li {
     display: inline-block;
     margin-left: 1.563rem;
+    margin-top: 1.7rem;
+    -webkit-font-smoothing: antialiased;
 }
 .content {
     padding: 0px 15px;
     margin: 0 auto;
     min-width: 37.5rem;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
 }
