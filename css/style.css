@@ -61,3 +61,16 @@ div {
     height: 70px;
     margin: 0 auto;
 }
+.links {
+	float:right;
+	margin-top: 1.7rem
+}
+.links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+.content {
+    padding: 0px 15px;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
